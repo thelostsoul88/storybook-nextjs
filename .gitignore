@@ -35,9 +35,8 @@ Thumbs.db
 .env.production.local
 
 # ==============================
-# Storybook / Screenshots
+# Storybook
 # ==============================
-screenshots
 storybook-static/
 .storybook-out/
 coverage/
