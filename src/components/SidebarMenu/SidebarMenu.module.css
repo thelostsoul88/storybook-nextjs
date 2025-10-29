@@ -1,0 +1,28 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-end;
+  z-index: 40;
+}
+.sidebar {
+  width: 280px;
+  background: #fff;
+  height: 100%;
+  padding: 16px;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.15);
+  overflow-y: auto;
+  border-left: 1px solid #eee;
+}
+.item {
+  margin: 8px 0;
+}
+.submenu {
+  margin-left: 12px;
+  display: grid;
+  gap: 6px;
+}
+.subitem {
+  color: #666;
+}

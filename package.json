@@ -1,0 +1,33 @@
+{
+  "name": "next15-sb9-vite-no-addons",
+  "homepage": "https://thelostsoul88.github.io/storybook-nextjs/",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "framer-motion": "^11.0.0",
+    "next": "15.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-hook-form": "^7.52.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "9.0.0",
+    "@storybook/react-vite": "9.0.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.0.0",
+    "prettier": "^3.3.2",
+    "storybook": "^9.1.16",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0"
+  }
+}
